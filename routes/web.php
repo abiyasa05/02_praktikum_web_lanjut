@@ -30,3 +30,5 @@ echo "<h1>Kelas : TI 2H</h1>";
 Route::get('/articles/{id}', function ($id) {
 echo "<h1>Halaman Artikel dengan ID $id</h1>";
 });
+
+//coba
