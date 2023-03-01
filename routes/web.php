@@ -21,7 +21,7 @@ Route::get('/', function () {
 echo "<h1>Selamat Datang</h1>";
 });
 
-Route::get('/about/{nim}/{nama}/{kelas}', function () {
+Route::get('/about', function () {
 echo "<h1>NIM : 2141720203</h1>";
 echo "<h1>Nama : Abiyasa Putra Prasetya</h1>";
 echo "<h1>Kelas : TI 2H</h1>";
